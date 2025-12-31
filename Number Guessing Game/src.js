@@ -38,5 +38,7 @@ function keepGuessing()
         
 }
 
+rd.on("close", () => {console.log("You got it right!!!");})
+
 const num = Number(generateRandomNumber());
 keepGuessing();
